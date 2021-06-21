@@ -41,6 +41,11 @@ public class mainbuku {
         dt.databuku();
         System.out.println("-------------------------------");
 
+        buku c = new buku();
+            System.out.println(c.bukuweb);
+        System.out.println(c.bukuphp);
+        System.out.println(c.bukumatematika);
+
 
     }
 }

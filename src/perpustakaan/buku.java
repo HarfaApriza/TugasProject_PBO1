@@ -10,7 +10,11 @@ public class buku {
         public String bukuipa;
         public String bukuips;
 
-
+        public buku() {
+                this.bukuweb = "Harfa Apriza";
+                this.bukuphp = "19630648";
+                this.bukumatematika ="4C REG BANJARABARU";
+        }
 
         public void tampil(){
                 System.out.println("Selamat Datang di Perpustakaan");
