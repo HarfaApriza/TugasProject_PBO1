@@ -10,6 +10,18 @@ public class buku {
         public String bukuipa;
         public String bukuips;
 
+        @Override
+        public int hashCode() {
+                return super.hashCode();
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+                return super.equals(obj);
+        }
+
+
+
         public String getBukuweb() {
                 return bukuweb;
         }
